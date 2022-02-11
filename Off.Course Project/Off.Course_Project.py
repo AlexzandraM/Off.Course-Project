@@ -55,8 +55,9 @@ print()
 mood = input("Is the animal feeling nice or aggressive? Type n for nice or a for aggressive: ")
 print()
 if mood.lower() == 'a':
-    print(user_name , 'reaches out with a treat flat on their hand. The' , fav_animal , 'nips' , user_name , 'on the hand!' , user_name , 'decides to walk away to admire the others.')
-    print(pet_name , 'admires the human interacting with the other animals.')
+    print(user_name , 'reaches out with a treat flat on their hand. The' , fav_animal , 'nips' , user_name , 'on the hand!')
+    print(user_name , 'decides to walk away to admire the others.')
+    print(pet_name , 'watches the human interacting with the other animals.')
 else:
     print(user_name , 'reaches out with a treat on their flat hand.' , pet_name , "gently accepts the treat.")
     print(user_name , 'gently pets the gentle' , fav_animal , 'and falls in love with how soft' , sec_per , 'coat is!')
@@ -66,8 +67,8 @@ if mood.lower() == 'a':
     print(user_name , 'decided' , pet_name , 'was too much to handle and did not want to have an aggressive pet.')
     print(pet_name , "did not get adopted this time.")
 elif energy.lower() == 'e':
-    print(user_name , 'decides he is not ready to be responsible for a pet right now.')   
+    print(user_name , 'decides he is not ready to be responsible for a pet right now. However,' , user_name , 'plans to return soon.')   
 else:
-    print("Hooray!" , pet_name , "is getting adopted!" , user_name , "was recommended to connect with the animal's previous owner")
-    print('to find out more about' , pet_name + "'s" , user_name , "agrees and accepts the contact information for" , grand_name + ".")
+    print("Hooray!" , pet_name , "is getting adopted!" , user_name , "was recommended to connect with the animal's previous owner," , grand_name + ",")
+    print('to find out more about' , pet_name + "." , user_name , "agrees and accepts the contact information for" , grand_name + ".")
     print(pet_name , 'was excited to have a best friend again!')
