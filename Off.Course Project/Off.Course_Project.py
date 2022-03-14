@@ -50,12 +50,12 @@ while keepGoing.lower() == 'y':
     print('Suddenly, the bell on the door rings and the curious' , fav_animal, 'hears some chatter.')
     
     print('The worker asks' , user_name , 'the correct amount of times an animal needs to be fed a day before allowing entrance to the animals.')
-    food = input('How many times should an animal be fed: ')
+    food = input('\nHow many times should an animal be fed: ')
     while food != 'three' and food != '3':
         food = input('That is incorrect. Please try again: ')
 
     print()
-    print('The worker congratulates' , user_name, 'and walks over to permit entry.') 
+    print('\nThe worker congratulates' , user_name, 'and walks over to permit entry.') 
     print(user_name , 'pulls out a bag of treats and the animals go crazy!')
     print()
 
